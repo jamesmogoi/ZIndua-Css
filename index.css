@@ -1,0 +1,29 @@
+*{
+    padding: 2px;
+}
+<style>
+         h2{
+                color:blue;
+            }
+            h1{ 
+                color:rgb(175, 212, 24);
+                font-size: 1.9em;
+            h1, h2{text-decoration-line: dotted;
+            }
+            p{
+                color: green;
+                font: size 3px;
+            }
+       #location{
+        text-align: justify;
+        text-transform: capitalize;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(79, 19, 73);
+
+       }
+       .my sections{
+        font-family: 'Courier New', Courier, monospace;
+        #Welcome-msg {
+            font-weight: bold;
+            font-style: oblique;
+       }
