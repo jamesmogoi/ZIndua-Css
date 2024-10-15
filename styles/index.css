@@ -1,29 +1,82 @@
-*{
-    padding: 2px;
+h1 {
+    color: red;
+    text-align: center;
+    font-size: xxx-large;
+    padding-block: 10px;
+    box-sizing: content-box;
+    background-color: rgb(15, 15, 13);
+    font-size: x-large;
+    font-weight: 100;
+   
 }
-<style>
-         h2{
-                color:blue;
-            }
-            h1{ 
-                color:rgb(175, 212, 24);
-                font-size: 1.9em;
-            h1, h2{text-decoration-line: dotted;
-            }
-            p{
-                color: green;
-                font: size 3px;
-            }
-       #location{
-        text-align: justify;
-        text-transform: capitalize;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(79, 19, 73);
+h2 {
+    color: green;
+    font-family: cursive;
+    text-align: center;
+    padding-block: 10px;
+    box-sizing: content-box;
+    background-color: black;
+    font-weight: 100;
+}
+h3 {
+    color: aliceblue;
+    font-family: cursive;
+    text-align: center;
+    padding-block: 10px;
+    box-sizing: content-box;
+    background-color: black;
+    font-weight: 100;
+}
+p1 {
+    text-align: center;
+    
+}
+.my-sections {
+    font-weight: 100;
 
-       }
-       .my sections{
-        font-family: 'Courier New', Courier, monospace;
-        #Welcome-msg {
-            font-weight: bold;
-            font-style: oblique;
-       }
+}
+h1, h2, h3 {
+    text-decoration: underline double;
+    
+}
+h0 {
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 127, 127);
+    text-decoration:line-through;
+}
+.img {
+    padding-block: 30px;
+    
+}
+body {
+    background-image: url(https://deih43ym53wif.cloudfront.net/nairobi-kenya-shutterstock_784433020_d013532660.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#item1 {
+    background-color: brown;
+    padding: 20px;
+}
+#item2 {
+    background-color: aquamarine;
+    padding: 20px;
+}
+#item3 {
+    background-color: blue;
+    padding: 20px;
+}
+#item4 {
+    background-color: rgb(86, 227, 9);
+    padding: 20px;
+}
+.container {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
